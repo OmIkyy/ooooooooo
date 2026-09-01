@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOMINDO NETWORK - Internet Cepat &amp; Stabil</title>
+    <meta name="description" content="Penyedia internet WiFi terbaik dengan kecepatan tinggi dan harga terjangkau. Dapatkan koneksi internet stabil untuk kebutuhan rumah dan bisnis Anda." />
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="/manifest.json" />
+    <script>
+      // Suppress benign Vite dev-server WebSocket connection rejections in sandboxed proxy
+      window.addEventListener('unhandledrejection', function(event) {
+        var reason = (event && event.reason) ? (event.reason.message || String(event.reason)) : '';
+        if (typeof reason === 'string' && (
+          reason.indexOf('WebSocket') !== -1 ||
+          reason.indexOf('vite') !== -1 ||
+          reason.indexOf('ws://') !== -1 ||
+          reason.indexOf('wss://') !== -1
+        )) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      }, true);
+      window.addEventListener('error', function(event) {
+        var msg = (event && event.message) ? String(event.message) : '';
+        if (
+          msg.indexOf('WebSocket') !== -1 ||
+          msg.indexOf('vite') !== -1 ||
+          msg.indexOf('ws://') !== -1 ||
+          msg.indexOf('wss://') !== -1
+        ) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      }, true);
+    </script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

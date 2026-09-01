@@ -1,0 +1,3 @@
+https://e.ebilling.id/tagihan/?account=5379
+
+(Catatan: Untuk mengubah link pembayaran, Anda bisa mengedit file ini atau file 'public/payment-link.txt' atau 'src/payment-config.json')

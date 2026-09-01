@@ -1,0 +1,6 @@
+{
+  "name": "KOMINDO NETWORK",
+  "description": "Penyedia internet WiFi terbaik dengan kecepatan tinggi dan harga terjangkau. Dapatkan koneksi internet stabil untuk kebutuhan rumah dan bisnis Anda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

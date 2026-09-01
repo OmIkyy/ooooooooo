@@ -1,0 +1,287 @@
+{
+  "customers": [],
+  "templates": {
+    "tagihanActive": true,
+    "tagihanTemplate": "🎉 SELAMAT DATANG DI KOMINDO NETWORK\n\nHalo {nama},\n\nData Anda sudah terdaftar sebagai pelanggan kami.\n\n📌 ID Pelanggan: {id}\n📦 Paket: {paket}\n📅 Jatuh Tempo: {jatuhTempo}\n\nTerima kasih sudah memilih & mempercayai KOMINDO NETWORK. Semoga layanan internet kami selalu lancar menemani aktivitas Anda.\n\nSalam hangat,\nTim KOMINDO NETWORK\n\n▶️ Cara Pembayaran (Video Tutorial YouTube):\n{youtubeLink}\n\n🔗 Link Pembayaran Direct:\n{linkPembayaran}",
+    "psbActive": false,
+    "psbTemplate": "Ini adalah pesan otomatis dari sistem e-billing layanan *KOMINDO NETWORK*\n\n*Pembayaran Biaya Aktivasi Pemasangan Baru Wifi*\n\nHalo *{nama}*,\nBiaya : {paket}\nJatuh Tempo : {jatuhTempo}\n\n▶️ Cara Pembayaran (Video Tutorial YouTube):\n{youtubeLink}\n\n🔗 Link Pembayaran:\n{linkPembayaran}\n\nMohon melakukan pembayaran biaya aktivasi pendaftaran baru sebesar 300K. Terima kasih!"
+  },
+  "settings": {
+    "paymentLink": "https://e.ebilling.id/tagihan/?account=5379",
+    "youtubeLink": "https://youtube.com/shorts/iQVe16YI22I?si=IhTYlTau2yCbDL0u",
+    "basicLink": "https://wa.me/6282181144800",
+    "silverLink": "https://wa.me/6282181144800",
+    "goldLink": "https://wa.me/6282181144800",
+    "cronIntervalMinutes": 10,
+    "reminderTimingDays": 1,
+    "packagesList": [
+      "Basic (20 Mbps) - 200K",
+      "Paket Silver (30 Mbps) - 250K",
+      "Paket Gold (50 Mbps) - 300K"
+    ]
+  },
+  "packages": [
+    {
+      "id": "pkg_basic",
+      "name": "Basic",
+      "speed": "20 Mbps",
+      "price": "200K",
+      "period": "/bulan",
+      "tagline": "Perfect untuk keluarga kecil",
+      "badge": "Paling Populer",
+      "isPopular": true,
+      "features": [
+        "Paket Basic (20 Mbps)",
+        "Unlimited Tanpa FUP",
+        "Instalasi Cepat",
+        "Support Team Teknis dan Admin"
+      ],
+      "orderLink": "https://wa.me/6282181144800"
+    },
+    {
+      "id": "pkg_silver",
+      "name": "Paket Silver",
+      "speed": "30 Mbps",
+      "price": "250K",
+      "period": "/bulan",
+      "tagline": "Ideal untuk work from home",
+      "badge": "",
+      "isPopular": false,
+      "features": [
+        "Paket Silver (30 Mbps)",
+        "Unlimited Tanpa FUP",
+        "Instalasi Gratis",
+        "Support Team Teknis dan Admin"
+      ],
+      "orderLink": "https://wa.me/6282181144800"
+    },
+    {
+      "id": "pkg_gold",
+      "name": "Paket Gold",
+      "speed": "50 Mbps",
+      "price": "300K",
+      "period": "/bulan",
+      "tagline": "Untuk Rumah, bisnis dan kantor",
+      "badge": "",
+      "isPopular": false,
+      "features": [
+        "Paket Gold (50 Mbps)",
+        "Unlimited Tanpa FUP",
+        "Instalasi Gratis",
+        "Support Team Teknis dan Admin"
+      ],
+      "orderLink": "https://wa.me/6282181144800"
+    }
+  ],
+  "admin_credentials": {
+    "username": "admin",
+    "password": "adminkomindo"
+  },
+  "bot_keywords": [
+    {
+      "id": "kw1",
+      "keyword": "1",
+      "reply": "CEK_TAGIHAN_DYNAMIC"
+    },
+    {
+      "id": "kw2",
+      "keyword": "CEK TAGIHAN",
+      "reply": "CEK_TAGIHAN_DYNAMIC"
+    },
+    {
+      "id": "kw3",
+      "keyword": "TAGIHAN",
+      "reply": "CEK_TAGIHAN_DYNAMIC"
+    },
+    {
+      "id": "kw4",
+      "keyword": "BAYAR TAGIHAN",
+      "reply": "CARA_PEMBAYARAN_DYNAMIC"
+    },
+    {
+      "id": "kw5",
+      "keyword": "CARA PEMBAYARAN",
+      "reply": "CARA_PEMBAYARAN_DYNAMIC"
+    },
+    {
+      "id": "kw6",
+      "keyword": "2",
+      "reply": "Silakan hubungi admin kami melalui WhatsApp di https://wa.me/6282181144800 untuk pendaftaran pasang baru wifi Komindo Network."
+    },
+    {
+      "id": "kw7",
+      "keyword": "DAFTAR INTERNET",
+      "reply": "Silakan hubungi admin kami melalui WhatsApp di https://wa.me/6282181144800 untuk pendaftaran pasang baru wifi Komindo Network."
+    },
+    {
+      "id": "kw8",
+      "keyword": "3",
+      "reply": "Berikut adalah daftar paket internet KOMINDO NETWORK yang tersedia:\n\n1. PAKET BASIC 200K - Rp 200.000\n2. PAKET SILVER 250K - Rp 250.000\n3. PAKET GOLD 300K - Rp 300.000\n4. PAKET DIAMOND 350K - Rp 350.000\n5. PSB (Biaya Registrasi) - Rp 300.000\n6. PAKET PRO BISNIS 500K - Rp 500.000\n7. CSR FREE - Rp 0"
+    },
+    {
+      "id": "kw9",
+      "keyword": "PAKET INTERNET",
+      "reply": "Berikut adalah daftar paket internet KOMINDO NETWORK yang tersedia:\n\n1. PAKET BASIC 200K - Rp 200.000\n2. PAKET SILVER 250K - Rp 250.000\n3. PAKET GOLD 300K - Rp 300.000\n4. PAKET DIAMOND 350K - Rp 350.000\n5. PSB (Biaya Registrasi) - Rp 300.000\n6. PAKET PRO BISNIS 500K - Rp 500.000\n7. CSR FREE - Rp 0"
+    },
+    {
+      "id": "kw10",
+      "keyword": "4",
+      "reply": "Laporan gangguan Anda telah kami terima. Tim teknisi Komindo Network akan segera mengecek koneksi Anda. Mohon pastikan modem wifi tetap menyala."
+    },
+    {
+      "id": "kw11",
+      "keyword": "LAPOR GANGGUAN",
+      "reply": "Laporan gangguan Anda telah kami terima. Tim teknisi Komindo Network akan segera mengecek koneksi Anda. Mohon pastikan modem wifi tetap menyala."
+    },
+    {
+      "id": "kw12",
+      "keyword": "5",
+      "reply": "Hubungi admin kami di nomor berikut: 6282181144800 untuk info billing, kerja sama, dan penawaran lainnya."
+    },
+    {
+      "id": "kw13",
+      "keyword": "HUBUNGI ADMIN",
+      "reply": "Hubungi admin kami di nomor berikut: 6282181144800 untuk info billing, kerja sama, dan penawaran lainnya."
+    },
+    {
+      "id": "kw14",
+      "keyword": "MENU",
+      "reply": "WELCOME_MENU_DYNAMIC"
+    },
+    {
+      "id": "kw15",
+      "keyword": "HALO",
+      "reply": "WELCOME_MENU_DYNAMIC"
+    }
+  ],
+  "backups": [
+    {
+      "id": "bkp_1788268466039_v0ihf",
+      "filename": "komindo_backup_automatic_2026-09-01T13-14-26-039Z.json",
+      "type": "automatic",
+      "size_bytes": 4925,
+      "records_count": 15,
+      "created_at": "2026-09-01T13:14:26.039Z",
+      "data": {
+        "version": "2.0.0",
+        "appName": "Komindo Network Billing System",
+        "exportDate": "2026-09-01T13:14:26.039Z",
+        "counts": {
+          "customers": 0,
+          "keywords": 15,
+          "chats": 0
+        },
+        "data": {
+          "customers": [],
+          "templates": {
+            "tagihanActive": true,
+            "tagihanTemplate": "🎉 SELAMAT DATANG DI KOMINDO NETWORK\n\nHalo {nama},\n\nData Anda sudah terdaftar sebagai pelanggan kami.\n\n📌 ID Pelanggan: {id}\n📦 Paket: {paket}\n📅 Jatuh Tempo: {jatuhTempo}\n\nTerima kasih sudah memilih & mempercayai KOMINDO NETWORK. Semoga layanan internet kami selalu lancar menemani aktivitas Anda.\n\nSalam hangat,\nTim KOMINDO NETWORK\n\n▶️ Cara Pembayaran (Video Tutorial YouTube):\n{youtubeLink}\n\n🔗 Link Pembayaran Direct:\n{linkPembayaran}",
+            "psbActive": false,
+            "psbTemplate": "Ini adalah pesan otomatis dari sistem e-billing layanan *KOMINDO NETWORK*\n\n*Pembayaran Biaya Aktivasi Pemasangan Baru Wifi*\n\nHalo *{nama}*,\nBiaya : {paket}\nJatuh Tempo : {jatuhTempo}\n\n▶️ Cara Pembayaran (Video Tutorial YouTube):\n{youtubeLink}\n\n🔗 Link Pembayaran:\n{linkPembayaran}\n\nMohon melakukan pembayaran biaya aktivasi pendaftaran baru sebesar 300K. Terima kasih!"
+          },
+          "settings": {
+            "paymentLink": "https://e.ebilling.id/tagihan/?account=5379",
+            "youtubeLink": "https://youtube.com/@komindo_network?si=uM1XCOSYa72IKZ6y",
+            "basicLink": "https://wa.me/6282181144800",
+            "silverLink": "https://wa.me/6282181144800",
+            "goldLink": "https://wa.me/6282181144800",
+            "cronIntervalMinutes": 10,
+            "reminderTimingDays": 1,
+            "packagesList": [
+              "BASIC 200K",
+              "SILVER 250K",
+              "GOLD 300K",
+              "PLATINUM 500K",
+              "BUSINESS 750K",
+              "ULTRA 1000K",
+              "CUSTOM PRO",
+              "CSR / FREE"
+            ]
+          },
+          "botSettings": {
+            "status": true,
+            "default_reply": "Maaf, pesan Anda belum dapat diproses secara otomatis. Silakan ketik *MENU* untuk melihat daftar layanan atau hubungi admin Komindo Network."
+          },
+          "botKeywords": [
+            {
+              "id": "kw1",
+              "keyword": "1",
+              "reply": "CEK_TAGIHAN_DYNAMIC"
+            },
+            {
+              "id": "kw2",
+              "keyword": "CEK TAGIHAN",
+              "reply": "CEK_TAGIHAN_DYNAMIC"
+            },
+            {
+              "id": "kw3",
+              "keyword": "TAGIHAN",
+              "reply": "CEK_TAGIHAN_DYNAMIC"
+            },
+            {
+              "id": "kw4",
+              "keyword": "BAYAR TAGIHAN",
+              "reply": "CARA_PEMBAYARAN_DYNAMIC"
+            },
+            {
+              "id": "kw5",
+              "keyword": "CARA PEMBAYARAN",
+              "reply": "CARA_PEMBAYARAN_DYNAMIC"
+            },
+            {
+              "id": "kw6",
+              "keyword": "2",
+              "reply": "Silakan hubungi admin kami melalui WhatsApp di https://wa.me/6282181144800 untuk pendaftaran pasang baru wifi Komindo Network."
+            },
+            {
+              "id": "kw7",
+              "keyword": "DAFTAR INTERNET",
+              "reply": "Silakan hubungi admin kami melalui WhatsApp di https://wa.me/6282181144800 untuk pendaftaran pasang baru wifi Komindo Network."
+            },
+            {
+              "id": "kw8",
+              "keyword": "3",
+              "reply": "Berikut adalah daftar paket internet KOMINDO NETWORK yang tersedia:\n\n1. PAKET BASIC 200K - Rp 200.000\n2. PAKET SILVER 250K - Rp 250.000\n3. PAKET GOLD 300K - Rp 300.000\n4. PAKET DIAMOND 350K - Rp 350.000\n5. PSB (Biaya Registrasi) - Rp 300.000\n6. PAKET PRO BISNIS 500K - Rp 500.000\n7. CSR FREE - Rp 0"
+            },
+            {
+              "id": "kw9",
+              "keyword": "PAKET INTERNET",
+              "reply": "Berikut adalah daftar paket internet KOMINDO NETWORK yang tersedia:\n\n1. PAKET BASIC 200K - Rp 200.000\n2. PAKET SILVER 250K - Rp 250.000\n3. PAKET GOLD 300K - Rp 300.000\n4. PAKET DIAMOND 350K - Rp 350.000\n5. PSB (Biaya Registrasi) - Rp 300.000\n6. PAKET PRO BISNIS 500K - Rp 500.000\n7. CSR FREE - Rp 0"
+            },
+            {
+              "id": "kw10",
+              "keyword": "4",
+              "reply": "Laporan gangguan Anda telah kami terima. Tim teknisi Komindo Network akan segera mengecek koneksi Anda. Mohon pastikan modem wifi tetap menyala."
+            },
+            {
+              "id": "kw11",
+              "keyword": "LAPOR GANGGUAN",
+              "reply": "Laporan gangguan Anda telah kami terima. Tim teknisi Komindo Network akan segera mengecek koneksi Anda. Mohon pastikan modem wifi tetap menyala."
+            },
+            {
+              "id": "kw12",
+              "keyword": "5",
+              "reply": "Hubungi admin kami di nomor berikut: 6282181144800 untuk info billing, kerja sama, dan penawaran lainnya."
+            },
+            {
+              "id": "kw13",
+              "keyword": "HUBUNGI ADMIN",
+              "reply": "Hubungi admin kami di nomor berikut: 6282181144800 untuk info billing, kerja sama, dan penawaran lainnya."
+            },
+            {
+              "id": "kw14",
+              "keyword": "MENU",
+              "reply": "WELCOME_MENU_DYNAMIC"
+            },
+            {
+              "id": "kw15",
+              "keyword": "HALO",
+              "reply": "WELCOME_MENU_DYNAMIC"
+            }
+          ],
+          "botChats": []
+        }
+      }
+    }
+  ]
+}

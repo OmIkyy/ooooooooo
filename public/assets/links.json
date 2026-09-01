@@ -1,0 +1,9 @@
+{
+  "youtubeLink": "https://youtube.com/@komindo_network?si=uM1XCOSYa72IKZ6y",
+  "paymentLink": "https://e.ebilling.id/tagihan/?account=5379",
+  "adminWhatsAppLink": "https://wa.me/6282181144800",
+  "basicPackageLink": "https://wa.me/6282181144800",
+  "silverPackageLink": "https://wa.me/6282181144800",
+  "goldPackageLink": "https://wa.me/6282181144800",
+  "instructions": "Anda dapat mengedit link-link di dalam file JSON ini secara langsung (di folder assets). Link ini terhubung otomatis ke seluruh fitur website KOMINDO NETWORK."
+}
